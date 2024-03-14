@@ -1,6 +1,6 @@
-import { AnthropicService } from "../services/anthropic.ts"
-import { OpenAIService } from "../services/openai.ts"
-import { IAIService } from "../types.ts"
+import { AnthropicService } from "../services/anthropic"
+import { OpenAIService } from "../services/openai"
+import { IAIService } from "../types"
 
 export function createAIService(): IAIService {
   if (process.env.ANTHROPIC_API_KEY) {

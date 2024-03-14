@@ -1,4 +1,4 @@
-import { ImageMediaType, IAIService } from "../types.ts"
+import { ImageMediaType, IAIService } from "../types"
 import { z } from "zod"
 
 export class LLMService {

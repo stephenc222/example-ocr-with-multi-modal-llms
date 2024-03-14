@@ -1,5 +1,5 @@
 import sharp from "sharp"
-import { AreaOfInterest } from "../types.ts"
+import { AreaOfInterest } from "../types"
 
 export class ImageService {
   /**

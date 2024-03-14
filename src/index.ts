@@ -1,12 +1,12 @@
 import fs from "fs"
 import path from "path"
 import { fileURLToPath } from "url"
-import { LLMService } from "./services/llm.ts"
-import { RekognitionService } from "./services/rekognition.ts"
-import { ImageService } from "./utils/image.ts"
-import { createAIService } from "./factories/aiService.ts"
+import { LLMService } from "./services/llm"
+import { RekognitionService } from "./services/rekognition"
+import { ImageService } from "./utils/image"
+import { createAIService } from "./factories/aiService"
 import { z } from "zod"
-import { IAIService } from "./types.ts"
+import { IAIService } from "./types"
 
 // This is a Node.js script, so we can use the fileURLToPath function to get the directory name
 const __dirname = path.dirname(fileURLToPath(import.meta.url))

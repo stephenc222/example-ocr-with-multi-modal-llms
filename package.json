@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "start": "node ./loader.mjs"
+    "start": "node --experimental-specifier-resolution=node ./loader.mjs"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.16.1",
