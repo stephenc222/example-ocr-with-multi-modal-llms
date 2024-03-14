@@ -3,7 +3,7 @@ import path from "path"
 import { fileURLToPath } from "url"
 import { LLMService } from "./services/llm"
 import { RekognitionService } from "./services/rekognition"
-import { ImageService } from "./utils/image"
+import { ImageUtil } from "./utils/image"
 import { createAIService } from "./factories/aiService"
 import { z } from "zod"
 import { IAIService } from "./types"
@@ -35,7 +35,7 @@ async function detectAndProcessImage<T>(
     const areaOfInterest = await rekognitionService.findTextAreaOfInterest(
       imageBuffer
     )
-    const processedImage = await ImageService.extractAndProcessImage(
+    const processedImage = await ImageUtil.extractAndProcessImage(
       areaOfInterest,
       imageBuffer
     )

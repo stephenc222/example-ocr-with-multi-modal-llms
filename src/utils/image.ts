@@ -1,7 +1,7 @@
 import sharp from "sharp"
 import { AreaOfInterest } from "../types"
 
-export class ImageService {
+export class ImageUtil {
   /**
    *
    * @param areaOfInterest
