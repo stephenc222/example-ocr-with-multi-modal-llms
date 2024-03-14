@@ -6,14 +6,33 @@ This project showcases an advanced OCR (Optical Character Recognition) solution 
 
 To begin with this project, ensure Node.js is installed on your system. The project is developed using TypeScript, making it a necessary prerequisite as well.
 
-### Installation
+### Installation Guide
 
-To set up this project locally, follow these steps:
+Setting up this project on your local environment is straightforward. Just follow the steps below:
 
-1. Clone the repository to your local machine with `git clone <repository-url>`.
-2. In your terminal, change directory to the project folder.
-3. Run `npm install` within the project directory to install all required dependencies as listed in the `package.json` file, including the Anthropic AI SDK, OpenAI SDK, AWS SDK, and TypeScript.
-4. Create a `.env` file in the root of the project and add your API keys for Anthropic AI and OpenAI, as well as your AWS credentials. You can use the `example.env` file as a template.
+1. **Clone the Repository:** Start by cloning the repository to your local machine using the command:
+
+   ```bash
+   git clone git@github.com:stephenc222/example-ocr-with-multi-modal-llms.git
+   ```
+
+2. **Navigate to the Project Directory:** After cloning, switch to the project's directory by running:
+
+   ```bash
+   cd example-ocr-with-multi-modal-llms
+   ```
+
+   in your terminal.
+
+3. **Install Dependencies:** Inside the project directory, execute:
+
+   ```bash
+   npm install
+   ```
+
+   This installs all necessary dependencies, such as the Anthropic AI SDK, OpenAI SDK, AWS SDK, and TypeScript, as specified in the `package.json` file.
+
+4. **Set Up Environment Variables:** Finally, create a `.env` file at the root of the project. Populate it with your API keys for Anthropic AI, OpenAI, and your AWS credentials. Refer to the `example.env` file for the format.
 
 ### Running the Project
 
